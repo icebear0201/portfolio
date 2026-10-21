@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="#" class="brand">Atharva Humane<span class="dot">.</span></a>
+            <nav class="nav">
+                <a href="#work">Work</a>
+                <a href="#publications">Research</a>
+                <a href="#skills">Stack</a>
+                <!-- <a href="#certifications">Certifications</a> -->
+                <a href="#contact">Contact</a>
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle color theme">
+                    <span class="theme-label">Dark</span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Hero Section (No Photo, Typography-Driven) -->
+        <section class="hero">
+            <div class="meta-tag">Python · AI · Web</div>
+            <h1 class="hero-title">Exploring ideas. Building solutions.</h1>
+            <p class="hero-sub">
+                I design and develop end-to-end software, combining full-stack development, Python, and AI to create
+                reliable applications that are intuitive to use and built to solve real problems.
+
+
+
+
+            </p>
+            <div class="hero-actions">
+                <a href="#work" class="btn btn-primary">Selected Projects</a>
+                <a href="#contact" class="btn btn-ghost">Contact</a>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <!-- Skills / Technical Stack -->
+        <section id="skills" class="section">
+            <div class="section-grid">
+                <div class="section-label">01 / Capabilities</div>
+                <div class="section-content">
+                    <div class="skills-table">
+                        <div class="skill-row">
+                            <span class="skill-category">Core Roles</span>
+                            <div class="skill-items">
+                                <span class="chip">Full Stack Web Developer</span>
+                                <span class="chip">Python Developer</span>
+                            </div>
+                        </div>
+                        <div class="skill-row">
+                            <span class="skill-category">Languages &amp; DB</span>
+                            <div class="skill-items">
+                                <span class="chip">Python</span>
+                                <span class="chip">JavaScript</span>
+                                <span class="chip">SQL</span>
+                                <span class="chip">C</span>
+                                <span class="chip">HTML / CSS</span>
+                            </div>
+                        </div>
+                        <!-- <div class="skill-row">
+                            <span class="skill-category">Frameworks &amp; Tools</span>
+                            <div class="skill-items">
+                                <span class="chip">Flask REST API</span>
+                                <span class="chip">Ollama (Local LLMs)</span>
+                                <span class="chip">Chart.js</span>
+                                <span class="chip">Git</span>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <!-- Projects Section -->
+        <section id="work" class="section">
+            <div class="section-grid">
+                <div class="section-label">02 / Selected Work</div>
+                <div class="section-content projects-list">
+                    <!-- Project 1: INTELLIJUDGE -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <div>
+                                <span class="project-index">01</span>
+                                <h2 class="project-title">IntelliJudge — Legal Decision Support System</h2>
+                            </div>
+                            <span class="project-year">2025</span>
+                        </div>
+
+                        <p class="project-summary">
+                            AI-based legal decision-making and case evaluation system designed for educational
+                            simulation and legal informatics research.
+                        </p>
+
+                        <div class="metrics-bar">
+                            <div class="metric">
+                                <span class="metric-val">3-Input</span>
+                                <span class="metric-key">Triadic Case Architecture</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-val">Nov 2025</span>
+                                <span class="metric-key">Conference Presentation</span>
+                            </div>
+                        </div>
+
+                        <ul class="project-details">
+                            <li>Engineered a triadic input pipeline that ingests Contender 1 claims, Contender 2
+                                counter-claims, and supporting evidentiary documentation.</li>
+                            <li>Implemented structured decision logic to weigh supporting evidence against competing
+                                claims and synthesize an interpretable, deterministic verdict output.</li>
+                            <li>Presented research findings at the 2nd International Conference on Emerging Technologies
+                                &amp; Innovation for Sustainability (Nov 2025).</li>
+                        </ul>
+
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Decision Logic</span>
+                            <span>AI / NLP</span>
+                            <span>Full Stack Web</span>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Debate Analyzer (from PDF) -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <div>
+                                <span class="project-index">02</span>
+                                <h2 class="project-title">AI-Powered Debate Analyzer</h2>
+                            </div>
+                            <span class="project-year">2025</span>
+                        </div>
+
+                        <p class="project-summary">
+                            Full-stack argument analysis platform that evaluates competing "For" and "Against"
+                            viewpoints across five cognitive dimensions to counter digital polarization and surface
+                            rhetorical bias.
+                        </p>
+
+                        <div class="metrics-bar">
+                            <div class="metric">
+                                <span class="metric-val">0–100</span>
+                                <span class="metric-key">5-Axis Scoring Rubric</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-val">72%</span>
+                                <span class="metric-key">Accuracy across 50 Test Cases</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-val">80%</span>
+                                <span class="metric-key">Peak on Policy &amp; Ethics</span>
+                            </div>
+                        </div>
+
+                        <ul class="project-details">
+                            <!-- <li>Architected a Python Flask REST API (<code>/analyze-debate</code>) orchestrating locally
+                                hosted <code>deepseek-r1:8b</code> and <code>Mistral:Instruct</code> models via Ollama
+                                for privacy-preserving, deterministic JSON output.</li> -->
+                            <li>Evaluated arguments across Factual Accuracy, Emotional Appeal, Logical Coherence,
+                                Clarity, and Evidence Quality, rendering side-by-side radar charts and progress bars
+                                with Chart.js.</li>
+                            <li>Built rule-based bias detection to flag emotional framing, absolute claims, and length
+                                imbalances alongside optional fact-checking and counter-argument generation modules.
+                            </li>
+                        </ul>
+
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </article>
+
+
+
+                </div>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <!-- Research & Publications -->
+        <section id="publications" class="section">
+            <div class="section-grid">
+                <div class="section-label">03 / Research</div>
+                <div class="section-content">
+                    <div class="pub-list">
+                        <div class="pub-item">
+                            <span class="pub-date">Nov 2025</span>
+                            <div class="pub-body">
+                                <h3 class="pub-title">IntelliJudge: AI-Powered Legal Decision Making System</h3>
+                                <p class="pub-venue">Presented at the 2nd International Conference on Emerging
+                                    Technologies &amp; Innovation for Sustainability.</p>
+                            </div>
+                        </div>
+                        <div class="pub-item">
+                            <span class="pub-date">2025</span>
+                            <div class="pub-body">
+                                <h3 class="pub-title">AI-Powered Debate Analyzer: Multi-Dimensional Argument Quality
+                                    &amp; Bias Assessment</h3>
+                                <p class="pub-venue">Research paper detailing local LLM orchestration (Flask + Ollama
+                                    DeepSeek) for transparent civic discourse analysis across 10 debate domains.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <!-- Certifications -->
+        <section id="certifications" class="section">
+            <div class="section-grid">
+                <div class="section-label">04 / Certifications</div>
+                <div class="section-content">
+                    <div class="cert-grid">
+                        <article class="cert-card">
+                            <div class="cert-header">
+                                <span class="cert-issuer">Udemy</span>
+                                <span class="cert-badge">Credential</span>
+                            </div>
+                            <h3 class="cert-title">Mastering Agentic AI: From Prompt to Protocols to Production</h3>
+                            <div class="cert-tags">
+                                <span>Agentic AI</span>
+                                <span>Protocols</span>
+                                <span>Production</span>
+                            </div>
+                        </article>
+
+                        <article class="cert-card">
+                            <div class="cert-header">
+                                <span class="cert-issuer">Red Hat</span>
+                                <span class="cert-badge">DO457 - RHA</span>
+                            </div>
+                            <h3 class="cert-title">Network Automation with Red Hat Ansible Automation Platform (DO457 -
+                                RHA) - Ver. 2.3</h3>
+                            <div class="cert-tags">
+                                <span>Ansible</span>
+                                <span>Network Automation</span>
+                                <span>IaC</span>
+                            </div>
+                        </article>
+
+                        <article class="cert-card">
+                            <div class="cert-header">
+                                <span class="cert-issuer">Red Hat</span>
+                                <span class="cert-badge">AD141 – RHA</span>
+                            </div>
+                            <h3 class="cert-title">Python Programming with Red Hat (AD141 – RHA)</h3>
+                            <div class="cert-tags">
+                                <span>Python</span>
+                                <span>Systems</span>
+                                <span>Automation</span>
+                            </div>
+                        </article>
+
+                        <article class="cert-card">
+                            <div class="cert-header">
+                                <span class="cert-issuer">Infosys</span>
+                                <span class="cert-badge">Credential</span>
+                            </div>
+                            <h3 class="cert-title">Data Structures and Algorithms Using Python – Part 1</h3>
+                            <div class="cert-tags">
+                                <span>Data Structures</span>
+                                <span>Algorithms</span>
+                                <span>Python</span>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="section-grid">
+                <div class="section-label">05 / Contact</div>
+                <div class="section-content">
+                    <p class="contact-lead">Available for internships, research collaborations, and full-stack
+                        engineering roles.</p>
+                    <div class="contact-links">
+                        <a href="mailto: atharvahumane01@gmail.com" class="contact-item">
+                            <span class="contact-key">Email</span>
+                            <span class="contact-val">atharvahumane01@gmail.com &nearr;</span>
+                        </a>
+                        <a href="https://github.com/icebear0201" target="_blank" rel="noopener" class="contact-item">
+                            <span class="contact-key">GitHub</span>
+                            <span class="contact-val">github.com/icebear0201 &nearr;</span>
+                        </a>
+                        <!-- <a href="https://linkedin.com/" target="_blank" rel="noopener" class="contact-item">
+                            <span class="contact-key">LinkedIn</span>
+                            <span class="contact-val">linkedin.com/in/username &nearr;</span>
+                        </a> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer container">
+        <span>&copy; 2026 Atharva Humane. Thoughtfully built, continuously refined.</span>
+        <span class="mono-note">India · Available for collaboration</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
